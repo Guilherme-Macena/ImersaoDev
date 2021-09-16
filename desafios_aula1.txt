@@ -1,0 +1,38 @@
+-- Relatório da aula 1:
+
+- Primeiro projeto de mádia, levou tempo, pois implementei algumas coisas além do que foi apresentado, a fim de deixar o projeto de acordo com o que pensei, quando o mesmo foi proposto.
+- Implementei uma tabela com notas aleatórias, todas as vezes que se pede um resultado. Tabela foi implementada em HTML e CSS, tornando complexo o desencolvimento dela.
+- A estilização dos itens é a parte mais complexa, porém existe muito conteúdo na internet o que torna a pesquisa fácil.
+- Segue o link do projeto final que atendeu todas as minhas espectativas e idéias, desenvolvido no codepen.io:
+	https://codepen.io/guilherme-macena/pen/abwwYPJ?editors=0010 
+
+
+-- Desafios propostos pelos instrutores:
+
+- Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não
+- Alterar o fundo da tela da maneira que achar mais legal
+- Imprimir na própria página o resultado, ao invés do console
+- Colocar a conta inteira da média em apenas uma linha
+
+
+
+
+-- Revisão e referências da Primeira Aula (Variáveis, operações e médias):
+
+* Para strings, usa-se as "aspas duplas", quando desejar que a variável leve um valor não se usa as "aspas"
+
+* Funções = console.log(), to.Fixed()
+
+* Váriaveis = para criar variáveis precisamos usar a palavra reservada (var) antes do nome da variável.
+
+** Conteudo EXTRA:
+
+** Para gerar números aleatórios é necessário usar a função Math.random(), documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+** Condição if...else, documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
+
+** Tabela em html: https://www.w3schools.com/html/html_tables.asp
+
+** Mesclar celulas de tabela html: https://economaster.com.br/master-utilidades/como-mesclar-celulas-de-tabela-html/#:~:text=Para%20mesclar%20uma%20c%C3%A9lula%20na,tag%20chamado%20colspan.
+
+** Centralizar tabela: https://pt.stackoverflow.com/questions/253108/centralizar-uma-tabela-html/253115
