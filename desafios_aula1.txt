@@ -5,6 +5,7 @@
 - A estilização dos itens é a parte mais complexa, porém existe muito conteúdo na internet o que torna a pesquisa fácil.
 - Segue o link do projeto final que atendeu todas as minhas espectativas e idéias, desenvolvido no codepen.io:
 	https://codepen.io/guilherme-macena/pen/abwwYPJ?editors=0010 
+	https://codepen.io/guilherme-macena/pen/abwwYPJ?editors=0010
 
 
 -- Desafios propostos pelos instrutores:
