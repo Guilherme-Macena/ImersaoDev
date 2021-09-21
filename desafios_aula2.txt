@@ -1,0 +1,13 @@
+- Segundo Projeto proposto na imersao_dev da Alura:
+
+- A ideia era criar um conversor de moedas, para saber quanto um valor em dolar custaria em reais.
+
+- No decorrer acabei alterando a ideia para saber quanto valeria um valor em real em diversas outras moedas, inclusive o Bitcoin.
+
+
+- Mesmo um pouco diferente a ideia de usar a lógica para converter valores foi bem aproveitada, assim como o uso de funções.
+Nesse projeto tive alguns problemas para alinhar os botôes e os labels,  mas mesmo assim consegui chegar a um resultado agrádavel.
+
+link do projeto no codepen:
+https://codepen.io/guilherme-macena/pen/VwWyNNz
+ 
