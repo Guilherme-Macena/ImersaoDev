@@ -3,9 +3,8 @@
 - Primeiro projeto de mádia, levou tempo, pois implementei algumas coisas além do que foi apresentado, a fim de deixar o projeto de acordo com o que pensei, quando o mesmo foi proposto.
 - Implementei uma tabela com notas aleatórias, todas as vezes que se pede um resultado. Tabela foi implementada em HTML e CSS, tornando complexo o desencolvimento dela.
 - A estilização dos itens é a parte mais complexa, porém existe muito conteúdo na internet o que torna a pesquisa fácil.
-- Segue o link do projeto final que atendeu todas as minhas espectativas e idéias, desenvolvido no codepen.io:
+- Segue o link do projeto final que atendeu todas as minhas expectativas e idéias, desenvolvido no codepen.io:
 	https://codepen.io/guilherme-macena/pen/abwwYPJ?editors=0010 
-	https://codepen.io/guilherme-macena/pen/abwwYPJ?editors=0010
 
 
 -- Desafios propostos pelos instrutores:
