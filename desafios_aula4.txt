@@ -1,0 +1,26 @@
+- Relatório da aula 4:
+
+- Quarto projeto, aluraflix, galeria de filmes.
+- Inspirado na minha filha, tema; Princesas da disney.
+
+
+- Incluindo algo em tag pelo js.(document.write("<p" + listaFilmes[0] + "<p>");)
+- Array, é o mesmo que uma lista de elementos.( var listaFilmes = [])
+	- Para adicionar algo a lista.(listaFilmes.push("conteudo";)
+	- Para contar o tamanho da lista.(listaFilmes.length;)
+
+
+- Estrutura de repetição for, itera entre os indices de um array.
+	for (indice = 0 ;   	indice < listaFilmes.length;   		indice ++){
+	   (valor inicial)  	(condição de até onde vai)  	(condição interadora ocorre ao final do loop)
+	document.write("<p" + listaFilmes[0] + "<p>");
+	}
+
+
+
+-- Desafios proposto pelos instrutores: 
+
+- Escolher o seu tema preferido para adaptar ao nosso código, ou seja, ao invés de filmes pode ser uma lista de animes, HQ's, cursos, capas de jogos...
+- Tentar implementar outras versões da estrutura de repetição que fizemos com for, como por exemplo com foreach ou while
+- Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente
+- Criar um campo e botão para adicionar a imagem pela tela, e não direto no código
