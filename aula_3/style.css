@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://st2.depositphotos.com/5777248/9453/v/600/depositphotos_94534044-stock-illustration-hypnosis-comics-concept.jpg");
+  background-color: #000000;
+  background-size: auto;
+  background-position: center bottom;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.page-subtitle {
+  font-family: Arial Black;
+  width: 350px;
+  border-radius: 100px;
+  background: #ffffff;
+  color: #000000;
+  margin: 0 auto 10px;
+}
+
+.page-logo {
+  border-radius: 100px;
+  background: #000000;
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  font-family: Arial Black;
+  text-align: center;
+  align-content: center;
+  width: 250px;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+button {
+  font-family: Arial Black;
+  text-align: center;
+  width: 100px;
+  align-content: center;
+  padding: 4px 8px;
+  border-radius: 15px;
+  background: #ffffff;
+}
+label {
+  font-size: 25px;
+  font-family: Arial Black;
+  text-align: center;
+  border-radius: 100px;
+  background: #ffffff;
+  color: #000000;
+  margin: 0 auto 0;
+}
+
+.resultado {
+  width: 250px;
+  font-family: Arial Black;
+  color: #000000;
+  text-align: center;
+  margin: 5px auto 10px;
+  background: #ffffff;
+  border-radius: 200px;
+}

@@ -1,0 +1,14 @@
+- Relatório da aula 7:
+
+- Um objeto dentro de outro objeto: var obj = { obj{ } }
+- Estrutura de repetição while(){}
+- Desabilitando botão pelo javaScript: document.getElementById().disabled = true ou false
+- Trabalhando com funções e objetos, percorrendo e buscando atributos específicos.
+- Buscando indice de um determinado objeto.
+
+
+-- Desafios proposto pelos instrutores: 
+
+- Verificar o que acontece caso você não selecione nenhum dos atributos e como solucionar
+- Utilizar personagens que você gosta para criar as cartas e compartilhe com o pessoal lá na comunidade do Discord!
+- Adicionar a imagem do personagem assim que você selecionar a carta dele

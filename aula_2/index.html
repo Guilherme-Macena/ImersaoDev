@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <p class="page-subtitle">
+    Converta seu valor em real para as moedas mais usadas pelo mundo. Com o segundo desafio da:
+  </p>
+  <a href="https://imersao.dev/">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  </a>
+
+  <label for="moeda">Insira o valor em real (R$)</label>
+  <input type="number" id="valor" size="2" />
+  <button class="botoes" type="submit" onclick="ConverterParaBitcoin()">Converter para Bitcoin</button>
+  <label id="output-bitcoin" class="labels"></label><br>
+
+  <div class="botoes">
+    <button type="submit" onclick="ConverterParaEuro()">Converter para Euro</button>
+    <label id="output-euro" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaDolar()">Converter para Dólar americano</button>
+    <label id="output-dolar" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaPeso()">Converter para Peso uruguaio</button>
+    <label id="output-peso" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaFranco()">Converter para Franco suíço</button>
+    <label id="output-franco" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaDinar()">Converter para Dinar tunisiano</button>
+    <label id="output-dinar" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaRupia()">Converter para Rúpia indiana</button>
+    <label id="output-rupia" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaLibra()">Converter para Libra esterlina</button>
+    <label id="output-libra" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaCoroa()">Converter para Coroa dinamarquesa</button>
+    <label id="output-coroa" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaRublo()">Converter para Rublo russo</button>
+    <label id="output-rublo" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaXelim()">Converter para Xelim tanzaniano</button>
+    <label id="output-xelim" class="labels"></label><br>
+
+    <button type="submit" onclick="ConverterParaYuan()">Converter para Yuan chinês</button>
+    <label id="output-yuan" class="labels"></label><br>
+    <br>
+  </div>
+</div>
+
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

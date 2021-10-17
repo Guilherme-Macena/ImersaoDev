@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mapa_dos_nomes_de_moedas_do_mundo.png/1280px-Mapa_dos_nomes_de_moedas_do_mundo.png");
+  background-color: #000000;
+  background-size: auto;
+  background-position: center bottom;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  font-family: Arial Black;
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  background-size: auto;
+  background: #000000;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  background: #000000;
+  width: 200px;
+}
+
+.alura-logo {
+  background: #000000;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  width: 50px;
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+label {
+  font-family: Arial Black;
+  color: #000000;
+}
+
+.labels {
+  margin-left: 20px;
+  text-align: right;
+  position: absolute;
+  margin: 12px;
+  font-family: Arial Black;
+  color: Black;
+  float: right;
+}
+
+.botoes {
+  font-family: Arial Black;
+  font: Arial Black;
+  align-items: right;
+  width: 110px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <a href="https://fcamara.com.br/">
+    <img class="logo" src="https://blog.fcamara.com.br/wp-content/uploads/2019/10/Logotipo-FCamara.png" />
+  </a>
+  <div class="titulo">
+    <label>PROTOCOLO DE AGENDAMENTO PARA RETORNO AO TRABALHO PRESENCIAL</label>
+  </div>
+
+  <header class="cabecalho">
+    <div class="topo">
+      <h2>Com o avanço da vacinação e seguindo as recomendações dos orgãos da saúde, os escritórios retornam suas atividades com 40% de sua capacidade total, no horário de funcionamento das 8h às 18h.<br>Lembrando que existe a opção do trabalho remoto.<br>
+        <font size="6">SÓ RETORNE AO TRABALHO PRESENCIAL SE VOCÊ ESTIVER SEGURO DISSO.</font>
+      </h2>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <div class="agendamento">
+      <ul>Agora você #SangueLaranja que deseja retornar ao trabalho presencial é só preencher os campos abaixo:</ul>
+
+      <li><label for="nome">Informe seu nome:</label>
+        <input type="text" id="nome" name="nome">
+      </li><br>
+
+      <li><label for="diaa">Data que deseja comparecer:</label>
+        <input type="date" id="dia" name="dia">
+      </li><br>
+
+      <li><label for="local">Escolha o escritório:</label>
+        <select name="local" id="local">
+          <option value="Sao-Paulo">São Paulo(pricipal)</option>
+          <option value="Santos">Santos(filial)</option>
+        </select>
+      </li><br>
+      <li><label for="estacao">Escolha um número para demarcar sua estação de trabalho:</label>
+        <input type="number" id="estacao" name="estacao">
+      </li><br>
+      <h3>Use máscara, álcool em gel e mantenha o distanciamento.<br> Em caso de sintomas consulte um médico!</h3>
+      <button onclick="agendarData()">Agendar</button>
+    </div>
+
+    <div class="informativos" id="informativos">
+      <img src="https://www.camaramedianeira.pr.gov.br/images/news/large/usemscaramantenhaodista.jpg" class="ativa" />
+      <img src="https://www.marinha.mil.br/saudenaval/sites/www.marinha.mil.br.saudenaval/files/higienizacao_maos_compartilhamento.jpg" />
+      <img src="https://saudedasaude.anahp.com.br/wp-content/uploads/2020/06/anahporienta_peca1_site.png" />
+    </div>
+  </main>
+  <br>
+  <div class="informativos" id="cadastrado">
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

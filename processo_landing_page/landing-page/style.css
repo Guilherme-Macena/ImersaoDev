@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #f24f00 27.26%, #ffffff 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  margin-left: 10px;
+  max-width: 200px;
+}
+.container {
+  margin: 32px;
+  background: #ecf4ff;
+  color: #1c1c1c;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.titulo {
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(236.85deg, #ffffff 27.26%, #f24f00 96.03%);
+  border-radius: 10px;
+  margin: 10px;
+}
+.titulo label {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+.topo {
+  display: flex;
+  /*   align-items: center; */
+  margin: 0px 10px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(236.85deg, #ffffff 27.26%, #f24f00 96.03%);
+}
+.topo h2 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+}
+
+.conteudo {
+  display: flex;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+.agendamento {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  background: #ecf4ff;
+  color: #1c1c1c;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(236.85deg, #ffffff 27.26%, #f24f00 96.03%);
+}
+.agendamento ul {
+  text-align: center;
+  list-style: none;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+.agendamento h3 {
+  text-align: center;
+  font-size: 25px;
+  color: red;
+}
+.agendamento li {
+  list-style: none;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.agendamento select,
+input {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  position: center;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto 10px;
+}
+.agendamento label {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+.agendamento button {
+  font-family: "Arial Black";
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+.informativos {
+  margin: 0px 10px;
+  display: flex;
+  background: linear-gradient(236.85deg, #ffffff 27.26%, #f24f00 96.03%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+  overflow: hidden;
+  position: relative;
+  width: 600px;
+  height: auto;
+}
+.informativos img {
+  display: flex;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  max-width: 600px;
+  margin-top: 80px;
+
+  -webkit-transition: margin-left 500ms ease-in;
+  -moz-transition: margin-left 500ms ease-in;
+  -o-transition: margin-left 500ms ease-in;
+  transition: margin-left 500ms ease-in;
+
+  /*   display: flex;
+  margin: 10px;
+  align-content: center;
+  width: 100%;
+  max-width: 600px; */
+}
+.ativa {
+  margin-left: 0%;
+}
+#cadastrado {
+  color: black;
+  font-family: "Arial Black";
+  font-size: 30px;
+  align-self: center;
+  border-radius: 10px;
+  margin: 10px 10px;
+  width: auto;
+}
